@@ -1,0 +1,27 @@
+{
+  "name": "@cylbot/cyldiscordbottypes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "publishPackage": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joey-dev/CylDiscordBot-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joey-dev/CylDiscordBot-types/issues"
+  },
+  "homepage": "https://github.com/joey-dev/CylDiscordBot-types#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@cylbot/cyldiscordbotlanguage": "^2.0.1"
+  }
+}
